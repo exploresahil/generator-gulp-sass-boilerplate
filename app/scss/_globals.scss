@@ -1,7 +1,11 @@
+//*----------> html
+
 html {
     font-size: 16px;
     box-sizing: border-box;
 }
+
+//*----------> All Elements
 
 *,
 *::before,
@@ -11,53 +15,23 @@ html {
     padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-p {
-    margin: 0;
-    padding: 0;
-}
+//*----------> Body
 
 body {
     overflow-x: hidden;
 }
 
+//*----------> Link
+
 a {
     text-decoration: none;
 }
 
+//*----------> Unordered List
+
 ul {
     list-style-type: none;
 }
-
-//*--------------------> mediaQuroes 
-
-//*----------> smartWatch
-
-// @media screen and (max-width: 270px)
-
-//*----------> smallMobile
-
-// @media screen and (min-width: 271px) and (max-width: 360px)
-
-//*----------> largeMobile
-
-// @media screen and (min-width: 361px) and (max-width: 767px)
-
-//*----------> Tablets 
-
-// @media screen and (min-width: 768px) and (max-width:1023px)
-
-//*----------> Desktop
-
-// @media screen and (min-width: 1024px) and (max-width:1280px)
-
-//*----------> Largedesktop
-
-// @media screen and (min-width:1280px)
-
 
 //*--------------------> Flex Styles
 
@@ -98,3 +72,29 @@ ul {
         place-items: center;
     }
 }
+
+//*--------------------> mediaQuroes 
+
+//*----------> smartWatch
+
+// @media screen and (max-width: 270px)
+
+//*----------> smallMobile
+
+// @media screen and (min-width: 271px) and (max-width: 360px)
+
+//*----------> largeMobile
+
+// @media screen and (min-width: 361px) and (max-width: 767px)
+
+//*----------> Tablets 
+
+// @media screen and (min-width: 768px) and (max-width:1023px)
+
+//*----------> Desktop
+
+// @media screen and (min-width: 1024px) and (max-width:1280px)
+
+//*----------> Largedesktop
+
+// @media screen and (min-width:1280px)
