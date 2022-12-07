@@ -1,8 +1,12 @@
 {
-  "name": "test-site",
+  "name": "generator-gulp-sass-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "files": [
+    "generators"
+  ],
+  "keywords": ["yeoman-generator"],
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +18,8 @@
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.1",
     "gulp-terser": "^2.1.0",
-    "sass": "^1.56.1"
+    "sass": "^1.56.1",
+    "yeoman-generator": "^1.0.0"
   },
   "overrides": {
     "chokidar": "3.5.3",
@@ -25,3 +30,4 @@
     "gulp-sass": "^5.1.0"
   }
 }
+
