@@ -1,0 +1,13 @@
+@use 'variables' as v;
+@use 'globals' as g;
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: v.$lt-blue;
+}
+
+h1 {
+    color: v.$dk-blue;
+    font-family: sans-serif ;
+}
